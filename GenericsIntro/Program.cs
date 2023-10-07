@@ -8,6 +8,16 @@ namespace GenericsIntro
         {
             MyList<string> myList = new MyList<string>();
             myList.Add("Muzaffer");
+
+            Console.WriteLine(myList.length);
+
+            myList.Add("Deniz");
+
+            Console.WriteLine(myList.length);
+
+            myList.Add("Berke");
+
+            Console.WriteLine(myList.length);
         }
     }
 }
